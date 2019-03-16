@@ -5,7 +5,7 @@ const app = express();
 
 app.get('*', (req, res) => {
   console.log(__dirname)
-  res.sendFile(path.join(__dirname ,'/src/index.html'));
+  res.sendFile('index.html');
 });
 app.listen(process.env.PORT || 8080, () => {
   console.log('server started');
