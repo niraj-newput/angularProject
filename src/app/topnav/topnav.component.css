@@ -1,0 +1,32 @@
+.navbar {
+  background: transparent;
+  padding: 10px;
+}
+.navbar .search-input {
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-radius: 0;
+}
+.navbar .search-input:focus {
+  box-shadow: none;
+}
+.navbar .nav-item a {
+  margin: 0px 10px;
+}
+.navbar .search-icon {
+  display: flex;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(73, 80, 87);
+    text-align: center;
+    white-space: nowrap;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 50px;
+}
